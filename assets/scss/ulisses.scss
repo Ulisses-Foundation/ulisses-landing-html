@@ -133,7 +133,7 @@
 
 @media (pointer: coarse) and (hover: none) {
   #hero-landing {
-    background: url("./assets/hero-bg.webp") black no-repeat center center scroll;
+    background: url("/assets/hero-bg.webp") black no-repeat center center scroll;
   }
   #hero-landing video {
     display: none;
@@ -251,7 +251,7 @@ a:active {
 }
 
 #layer0 {
-  background: url("./assets/ulisses/background/mask.jpg") black no-repeat center center scroll;
+  background: url("/assets/ulisses/background/mask.jpg") black no-repeat center center scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

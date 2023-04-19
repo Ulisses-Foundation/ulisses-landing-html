@@ -14,157 +14,157 @@
       "NAME": "Martina Dünser-Davis",
       "COMPANY": "",
       "FUNCTION": "President",
-      "IMAGE": "./assets/ulisses/team/martina.png"
+      "IMAGE": "/assets/ulisses/team/martina.png"
     },
     {
       "NAME": "Friedrich Kisters",
       "COMPANY": "OriginStamp",
       "FUNCTION": "Technology & Biometrics",
-      "IMAGE": "./assets/ulisses/team/friedrich.png"
+      "IMAGE": "/assets/ulisses/team/friedrich.png"
     },
     {
       "NAME": "Thomas Hepp",
       "COMPANY": "OriginStamp",
       "FUNCTION": "Technology",
-      "IMAGE": "./assets/ulisses/team/thomas.jpg"
+      "IMAGE": "/assets/ulisses/team/thomas.jpg"
     },
     {
       "NAME": "Dr. Michael Gebert",
       "COMPANY": "European Blockchain Association",
       "FUNCTION": "Chief Story Teller",
-      "IMAGE": "./assets/ulisses/team/michael.png"
+      "IMAGE": "/assets/ulisses/team/michael.png"
     },
     {
       "NAME": "Franz J. Allmayer",
       "COMPANY": "Integrity.earth, Hypha, Seeds",
       "FUNCTION": "Decentralization and Technology",
-      "IMAGE": "./assets/ulisses/team/franz.png"
+      "IMAGE": "/assets/ulisses/team/franz.png"
     },
     {
       "NAME": "Lisa Allmayer",
       "COMPANY": "Integrity.earth, Hypha, Seeds",
       "FUNCTION": "Project Management and Communication",
-      "IMAGE": "./assets/ulisses/team/lisa.png"
+      "IMAGE": "/assets/ulisses/team/lisa.png"
     },
     {
       "NAME": "Nicolas Biagosch",
       "COMPANY": "Q, Postera",
       "FUNCTION": "Legal",
-      "IMAGE": "./assets/ulisses/team/nicolas.png"
+      "IMAGE": "/assets/ulisses/team/nicolas.png"
     },
     {
       "NAME": "Martin Schmidt",
       "COMPANY": "Q, Postera",
       "FUNCTION": "Business Development",
-      "IMAGE": "./assets/ulisses/team/martin.png"
+      "IMAGE": "/assets/ulisses/team/martin.png"
     },
     {
       "NAME": "Andrei Martchouk",
       "COMPANY": "Q",
       "FUNCTION": "Development",
-      "IMAGE": "./assets/ulisses/team/andrei.png"
+      "IMAGE": "/assets/ulisses/team/andrei.png"
     },
   ],
   "ambassadors": [
     {
       "NAME": "Patrick Bont",
-      "IMAGE": "./assets/ulisses/ambassadors/PatrickBont.png",
+      "IMAGE": "/assets/ulisses/ambassadors/PatrickBont.png",
       "POSITION": "Chief Risk Officer",
       "COMPANY": "VP Bank"
     },
     {
       "NAME": "Pablo Coirolo",
-      "IMAGE": "./assets/ulisses/ambassadors/PabloCoirolo.png",
+      "IMAGE": "/assets/ulisses/ambassadors/PabloCoirolo.png",
       "POSITION": "Founder/Owner , Board Member , LI-Vaduz",
       "COMPANY": "Light47, Crypto Country Association"
     },
     {
       "NAME": "Dr. Agatha Ferreira",
-      "IMAGE": "./assets/ulisses/ambassadors/AgathaFerreira.png",
+      "IMAGE": "/assets/ulisses/ambassadors/AgathaFerreira.png",
       "POSITION": "Professor",
       "COMPANY": "University of Warsaw"
     },
     {
       "NAME": "Henry Wulf Concilio",
-      "IMAGE": "./assets/ulisses/ambassadors/HenryWulfConcilio.png",
+      "IMAGE": "/assets/ulisses/ambassadors/HenryWulfConcilio.png",
       "POSITION": "Founder",
       "COMPANY": "WeDataNation"
     },
     {
       "NAME": "Dr. Otto Frommelt",
-      "IMAGE": "./assets/ulisses/ambassadors/OttoFrommelt.png",
+      "IMAGE": "/assets/ulisses/ambassadors/OttoFrommelt.png",
       "POSITION": "Director",
       "COMPANY": "National Road Office Liechtenstein"
     },
     {
       "NAME": "Peter Grosskopf",
-      "IMAGE": "./assets/ulisses/ambassadors/PeterGrosskopf.png",
+      "IMAGE": "/assets/ulisses/ambassadors/PeterGrosskopf.png",
       "POSITION": "Founder / CTO",
       "COMPANY": "Unstoppable Finance"
     },
     {
       "NAME": "Stefan Gstöhl",
-      "IMAGE": "./assets/ulisses/ambassadors/StefanGstoehl.png",
+      "IMAGE": "/assets/ulisses/ambassadors/StefanGstoehl.png",
       "POSITION": "CCO",
       "COMPANY": "Tantum Pay"
     },
     {
       "NAME": "Hartmut Hübner",
-      "IMAGE": "./assets/ulisses/ambassadors/HartmutHuebner.png",
+      "IMAGE": "/assets/ulisses/ambassadors/HartmutHuebner.png",
       "POSITION": "Founder/Owner",
       "COMPANY": "Hübner Communications"
     },
     {
       "NAME": "Dr. Thomas Nägele",
-      "IMAGE": "./assets/ulisses/ambassadors/ThomasNaegele.png",
+      "IMAGE": "/assets/ulisses/ambassadors/ThomasNaegele.png",
       "POSITION": "Founder",
       "COMPANY": "Nägele Law"
     },
     {
       "NAME": "Dr. Philipp Sandner",
-      "IMAGE": "./assets/ulisses/ambassadors/PhilippSandner.png",
+      "IMAGE": "/assets/ulisses/ambassadors/PhilippSandner.png",
       "POSITION": "Professor",
       "COMPANY": "Frankfurt School of Business and Finance"
     },
     {
       "NAME": "Ulrich Spindler",
-      "IMAGE": "./assets/ulisses/ambassadors/UlrichSpindler.png",
+      "IMAGE": "/assets/ulisses/ambassadors/UlrichSpindler.png",
       "POSITION": "Venture Capitalist",
       "COMPANY": "ex , Co-Founder DocMorris"
     },
     {
       "NAME": "Marion Vogel",
-      "IMAGE": "./assets/ulisses/ambassadors/MarionVogel.png",
+      "IMAGE": "/assets/ulisses/ambassadors/MarionVogel.png",
       "POSITION": "Founder / Owner",
       "COMPANY": "Cerasum, Smalda"
     },
     {
       "NAME": "Tanya Woods",
-      "IMAGE": "./assets/ulisses/ambassadors/TanyaWoods.png",
+      "IMAGE": "/assets/ulisses/ambassadors/TanyaWoods.png",
       "POSITION": "CEO, Board of Directors",
       "COMPANY": "Futurity Partners, AMPD"
     },
     {
       "NAME": "Céline Chi Hae Wong",
-      "IMAGE": "./assets/ulisses/ambassadors/CelineChiHaeWong.png",
+      "IMAGE": "/assets/ulisses/ambassadors/CelineChiHaeWong.png",
       "POSITION": "Head Digital Assets DLT Business Consulting",
       "COMPANY": "VP Bank"
     },
     {
       "NAME": "Max Zheng",
-      "IMAGE": "./assets/ulisses/ambassadors/MaxZheng.png",
+      "IMAGE": "/assets/ulisses/ambassadors/MaxZheng.png",
       "POSITION": "Head BFG Superstars",
       "COMPANY": "Blockchain Founders"
     },
     {
       "NAME": "Simon Tribelhorn",
-      "IMAGE": "./assets/ulisses/ambassadors/SimonTribelhorn.png",
+      "IMAGE": "/assets/ulisses/ambassadors/SimonTribelhorn.png",
       "POSITION": "CEO",
       "COMPANY": "Liechtenstein Banker’s Association"
     },
     {
       "NAME": "Dr. Thomas Dünser",
-      "IMAGE": "./assets/ulisses/ambassadors/ThomasDuenser.png",
+      "IMAGE": "/assets/ulisses/ambassadors/ThomasDuenser.png",
       "POSITION": "Director Office for Financial Market Innovation and Digitalisation",
       "COMPANY": "Principality of Liechtenstein"
     }

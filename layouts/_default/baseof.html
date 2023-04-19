@@ -19,7 +19,7 @@
 
     <title>{{ .Title }} | Ulisses Foundation</title>
 
-    <link rel="icon" type="image/png" href="./assets/ulisses/logo/ulisses-favicon.png"/>
+    <link rel="icon" type="image/png" href="/assets/ulisses/logo/ulisses-favicon.png"/>
 
     {{ $style := resources.Get "scss/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.PostCSS | resources.Minify | fingerprint "md5" }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
