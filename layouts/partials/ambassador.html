@@ -1,0 +1,25 @@
+{{ $myData := (index $.Site.Data .Lang)}}
+{{ $headerData := $myData.partials }}
+
+<section id="team" class="mt-5 mb-5">>
+    <div class="container mt-5 mb-5">
+        <div class="mb-5"
+             data-aos="fade-right"
+             data-aos-delay="100">
+            <h3>People that make this project happen</h3>
+            <p><span class="h1 headline-font">Ambassadors</span></p>
+        </div>
+        <div class="row">
+            {{ range $headerData.ambassadors }}
+            <div class="col-md-2 text-center">
+                <img class="img-fluid rounded-circle"
+                     alt="{{ .NAME }}"
+                     src="{{ .IMAGE }}"
+                     data-aos="zoom-in"
+                     data-aos-delay="100">
+                <p>{{ .NAME }}<br>{{ .FUNCTION}}</p>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

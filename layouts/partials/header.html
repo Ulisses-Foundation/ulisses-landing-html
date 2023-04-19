@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg shadow-sm bg-primary fixed-top">
+    <div class="container">
+        <div class="row navbar-brand">
+            <div class="col-6">
+                <a class="text-decoration-none" href="/">
+                    <img src="/assets/ulisses/logo/ulisses-logo.png"
+                         height="26"
+                         class=""
+                         alt="Ulisses foundation logo">
+                </a>
+            </div>
+        </div>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="bi bi-three-dots-vertical" style="color:#000; font-size:28px;"></i>
+                </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            {{ $dir := "404" }}
+            {{ if .File }}
+            {{ $dir = .File.Dir }}
+            {{ end }}
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item d-lg-none">
+                    <a class="signup-link navbar-link nav-link font-weight-bold"
+                       href="/newsletter">Participate</a>
+                </li>
+            </ul>
+        </div>
+        <a href="/newsletter"
+           class="signup-link navbar-link d-none d-lg-block btn bg-white px-3 ml-2 pt-1 pb-1 font-weight-bold"
+           style="font-size: 16px; max-height: 34px; width: 160px">Participate</a>
+    </div>
+</nav>

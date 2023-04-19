@@ -1,0 +1,26 @@
+{
+  "name": "ulisses-web-landing",
+  "version": "1.0.0",
+  "description": "Landing page for the Ulisses Foundation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ulisses-Foundation/ulisses-landing-html.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Ulisses-Foundation/ulisses-landing-html/issues"
+  },
+  "homepage": "https://github.com/Ulisses-Foundation/ulisses-landing-html#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss-cli": "^8.3.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3"
+  }
+}

@@ -1,0 +1,32 @@
+baseURL = "https://ulisses.foundation/"
+languageCode = "en"
+defaultContentLanguageInSubdir = false
+defaultContentLang = 'en'
+[languages]
+[languages.en]
+contentDir = 'content/en'
+languageName = 'English'
+seoDescription = ''
+weight = 1
+[languages.de]
+contentDir = 'content/de'
+languageName = 'Deutsch'
+seoDescription = ''
+weight = 2
+
+title = "ONE HUMANITY - ONE IDENTITY"
+timeout = 1200000
+
+[params]
+[params.blog]
+
+
+# Enter the filename of the post under ./content/blog
+most_popular = []
+
+#enter settings for Table of contents
+[markup]
+[markup.tableOfContents]
+ordered = true
+startLevel = 2
+endLevel = 2

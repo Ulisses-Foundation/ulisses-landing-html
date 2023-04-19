@@ -1,0 +1,404 @@
+/*
+ * Custom ulisses CSS style.
+ */
+
+#jalousie-toggle {
+  cursor: pointer;
+}
+
+#hero-landing .btn-signup-link {
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  border: 1px solid #00000000;
+  color: #000;
+  background: $secondary;
+}
+
+#hero-landing .btn-signup-link:hover {
+  background: $secondary;
+  border: 1px solid $secondary;
+}
+
+#jalousie {
+  height: 100vh;
+  width: 100%;
+  background-color: $primary;
+  position: absolute;
+}
+
+#hero-landing {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+#hero-landing video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#hero-subtitle {
+  color: $white;
+}
+
+#hero-claim {
+  color: $white;
+}
+
+/*--------------------------------------------------------------
+# arrow hero
+--------------------------------------------------------------*/
+
+.bounce {
+  -moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+}
+
+.hero-arrow {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  padding: 25px;
+}
+
+.hero-arrow .arrow-container {
+  width: 10px;
+  display: block;
+  margin: 0 auto;
+  font-size: 3rem;
+  color: #000;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: $purple;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #000;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: $purple;
+  color: #000;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.logos img {
+  max-width: 200px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  #hero-landing {
+    background: url("/assets/hero-bg.webp") black no-repeat center center scroll;
+  }
+  #hero-landing video {
+    display: none;
+  }
+}
+
+.truncation {
+  overflow: hidden;
+  text-overflow: "more...";
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+}
+
+#why .card {
+  cursor: pointer;
+}
+
+#why i {
+  color: $white;
+  font-size: 2.5rem;
+  text-shadow: 3px 3px rgba(255, 165, 0, .75)
+}
+
+.icon {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.icon img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-rounded-left-box {
+  border-radius: 25px 0px 0px 25px;
+}
+
+.custom-rounded-right-box {
+  border-radius: 0px 25px 25px 0px;
+}
+
+.custom-rounded {
+  border-radius: 25px 25px 25px 25px;
+}
+
+.bg-gray {
+  background-color: $gray-200;
+}
+
+.btn {
+  border-radius: 25px !important;
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+}
+
+.btn-lg {
+  border-radius: 25px !important;
+  -webkit-border-radius: 25px !important;
+  -moz-border-radius: 25px !important;
+}
+
+#navbarNav > ul > li > a.nav-link {
+  color: $black;
+}
+
+#navbarNav > ul > li.nav-item.active > a.nav-link > .nav-circle:before {
+  content: "⬤" !important;
+}
+
+.nav-circle:before {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 50%;
+  margin-left: -1rem;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  content: "◯";
+}
+
+.nav-item a:hover > .nav-circle:before {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 60%;
+  margin-left: -1rem;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  content: "⬤";
+}
+
+.headline-font {
+  font-family: "Castoro"; // TODO Replace with 'Tiempos Text' once purchased #
+}
+
+footer a:link,
+a:visited,
+a:hover,
+a:active {
+  color: $black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#hero-landing {
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#layer0 {
+  background: url("/assets/ulisses/background/mask.jpg") black no-repeat center center scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(4vh);
+  visibility: hidden;
+  transition: opacity 0.5s ease-out, transform 0.6s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.chart {
+  display: table;
+  table-layout: fixed;
+
+  width: 60%;
+  max-width: 700px;
+  height: 200px;
+  margin: 0 auto;
+
+  background-image: linear-gradient(
+                  bottom,
+                  rgba(0, 0, 0, 0.1) 2%,
+                  transparent 2%
+  );
+  background-size: 100% 50px;
+  background-position: left top;
+
+  li {
+    position: relative;
+    display: table-cell;
+    vertical-align: bottom;
+    height: 200px;
+  }
+
+  span {
+    margin: 0 1em;
+    display: block;
+    background: rgba(#b6b6b6, 0.75);
+    animation: draw 1s ease-in-out;
+
+    &:before {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 100%;
+      padding: 5px 1em 0;
+      display: block;
+      text-align: center;
+      content: attr(title);
+      word-wrap: break-word;
+    }
+  }
+
+  @keyframes draw {
+    0% {
+      height: 0;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  //todo favicon adjustment based on dark/light mode
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 992px) {
+
+  .display-3 {
+    font-size: 2.5rem;
+  }
+
+  #hero-subtitle {
+    margin-top: 2rem;
+    color: $white;
+  }
+
+  #hero-claim {
+    color: $white;
+  }
+
+  #coins {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .nav-circle {
+    display: none;
+  }
+
+  .custom-rounded-left-box {
+    border-radius: 25px 25px 0 0;
+  }
+
+  .custom-rounded-right-box {
+    border-radius: 0px 0px 25px 25px;
+  }
+
+  #explore {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  #explore > div > div.row.w-100.mt-5 > div {
+    margin-bottom: 2rem;
+  }
+
+  .row {
+    overflow-x: hidden;
+  }
+
+  #why {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  #how {
+    padding: 1rem;
+  }
+
+  #featured > div > div.row.mt-5 > div > img {
+    margin: 1rem;
+    width: 60%;
+  }
+
+  #not_ready_yet {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  #recent-articles {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  #newsarticle-sharing {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}

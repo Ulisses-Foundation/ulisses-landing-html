@@ -1,0 +1,64 @@
+/*
+ * Animations for illustrations 
+ * https://www.the-art-of-web.com/css/css-animation/ 
+ */
+
+.pulse {
+  animation: 5s ease infinite pulse;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(1.02);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@-moz-keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(1vh);
+  visibility: hidden;
+  transition: opacity 0.7s ease-out, transform 2s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}

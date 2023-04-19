@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    {{ block "meta" . }}{{ end }}
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"/>
+
+    <!-- Bundled JavaScript -->
+    {{ $aos := resources.Get "js/aos.js" }}
+    {{ $bootstrap := resources.Get "js/bootstrap-5.1.3/bootstrap.min.js" }}
+    {{ $secureJS := slice $aos $bootstrap | resources.Concat "js/main.js" | resources.Minify | resources.Fingerprint "sha512" }}
+    <script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+
+    {{ block "javascript" . }}{{ end }}
+
+    <title>{{ .Title }} | Ulisses Foundation</title>
+
+    <link rel="icon" type="image/png" href="/assets/ulisses/logo/ulisses-favicon.png"/>
+
+    {{ $style := resources.Get "scss/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.PostCSS | resources.Minify | fingerprint "md5" }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+    {{ range .AlternativeOutputFormats }}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}">
+    {{ end }}
+
+    <!-- Bundled, deferred JavaScript -->
+    {{ $humanize := resources.Get "js/humanize.min.js" }}
+    {{ $secureDeferredJS := slice $humanize | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
+    <script defer type="text/javascript" src="{{ $secureDeferredJS.RelPermalink }}" integrity="{{ $secureDeferredJS.Data.Integrity }}"></script>
+
+    <link rel="preload" href="/css/aos-2.3.1.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/aos-2.3.1.css"></noscript>
+</head>
+<body>
+{{ partial "header" . }}
+
+{{ block "main" . }}{{ end }}
+
+{{ partial "footer" . }}
+
+<!-- Loading bootstrap icons -->
+<script>
+  var cb = function() {
+    var l = document.createElement('link'); l.rel = 'stylesheet';
+    l.href = '/css/bootstrap-icons-1.10.4/font/bootstrap-icons.css';
+    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h); };
+  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+    webkitRequestAnimationFrame || msRequestAnimationFrame;
+  if (raf) raf(cb);
+  else window.addEventListener('load', cb);
+</script>
+
+<script>
+  AOS.init({
+    offset: 80, // offset (in px) from the original trigger point
+    duration: 800, // values from 0 to 3000, with step 50ms
+    easing: 'ease-in-out', // default easing for AOS animations
+  });
+</script>
+</body>
+</html>
