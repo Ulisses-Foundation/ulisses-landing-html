@@ -13,12 +13,12 @@
             <div class="row">
                 {{ range $headerData.team }}
                 <div class="col-md-2 text-center">
-                    <img class="img-fluid rounded-circle"
+                    <img class="img-fluid rounded-circle shadow"
                          alt="{{ .NAME }}"
                          src="{{ .IMAGE }}"
                          data-aos="zoom-in"
                          data-aos-delay="100">
-                    <p>{{ .NAME }}<br>{{ .FUNCTION}}</p>
+                    <small>{{ .NAME }}<br>{{ .FUNCTION}}</small>
                 </div>
                 {{ end }}
             </div>
