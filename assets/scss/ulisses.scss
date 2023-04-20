@@ -12,7 +12,7 @@
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 35px;
-  border-radius: 50px;
+  border-radius: 10px;
   transition: 0.5s;
   margin-top: 30px;
   border: 1px solid #00000000;
@@ -148,11 +148,7 @@
   -webkit-box-orient: vertical;
 }
 
-#why .card {
-  cursor: pointer;
-}
-
-#why i {
+#what i {
   color: $white;
   font-size: 2.5rem;
   text-shadow: 3px 3px rgba(255, 165, 0, .75)
@@ -185,15 +181,15 @@
 }
 
 .btn {
-  border-radius: 25px !important;
-  -webkit-border-radius: 25px !important;
-  -moz-border-radius: 25px !important;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
 }
 
 .btn-lg {
-  border-radius: 25px !important;
-  -webkit-border-radius: 25px !important;
-  -moz-border-radius: 25px !important;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
 }
 
 #navbarNav > ul > li > a.nav-link {
@@ -229,7 +225,7 @@
 }
 
 .headline-font {
-  font-family: "Castoro"; // TODO Replace with 'Tiempos Text' once purchased #
+  font-family: "Dosis"; // TODO Replace with 'Tiempos Text' once purchased #
 }
 
 footer a:link,
@@ -250,76 +246,12 @@ a:active {
   position: relative;
 }
 
-#layer0 {
+#about {
   background: url("/assets/ulisses/background/mask.jpg") black no-repeat center center scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-.fade-in-section {
-  opacity: 0;
-  transform: translateY(4vh);
-  visibility: hidden;
-  transition: opacity 0.5s ease-out, transform 0.6s ease-out;
-  will-change: opacity, visibility;
-}
-
-.fade-in-section.is-visible {
-  opacity: 1;
-  transform: none;
-  visibility: visible;
-}
-
-.chart {
-  display: table;
-  table-layout: fixed;
-
-  width: 60%;
-  max-width: 700px;
-  height: 200px;
-  margin: 0 auto;
-
-  background-image: linear-gradient(
-                  bottom,
-                  rgba(0, 0, 0, 0.1) 2%,
-                  transparent 2%
-  );
-  background-size: 100% 50px;
-  background-position: left top;
-
-  li {
-    position: relative;
-    display: table-cell;
-    vertical-align: bottom;
-    height: 200px;
-  }
-
-  span {
-    margin: 0 1em;
-    display: block;
-    background: rgba(#b6b6b6, 0.75);
-    animation: draw 1s ease-in-out;
-
-    &:before {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 100%;
-      padding: 5px 1em 0;
-      display: block;
-      text-align: center;
-      content: attr(title);
-      word-wrap: break-word;
-    }
-  }
-
-  @keyframes draw {
-    0% {
-      height: 0;
-    }
-  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -353,11 +285,11 @@ a:active {
   }
 
   .custom-rounded-left-box {
-    border-radius: 25px 25px 0 0;
+    border-radius: 10px 10px 0 0;
   }
 
   .custom-rounded-right-box {
-    border-radius: 0px 0px 25px 25px;
+    border-radius: 0px 0px 10px 10px;
   }
 
   #explore {
@@ -391,19 +323,4 @@ a:active {
     margin: 1rem;
     padding: 1rem;
   }
-
-  #recent-articles {
-    margin: 1rem;
-    padding: 1rem;
-  }
-
-  #newsarticle-sharing {
-    margin: 1rem;
-    padding: 1rem;
-  }
-}
-
-.img-cover {
-  object-fit: cover;
-  object-position: center;
 }
