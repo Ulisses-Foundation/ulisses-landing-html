@@ -131,15 +131,6 @@
   height: auto;
 }
 
-@media (pointer: coarse) and (hover: none) {
-  #hero-landing {
-    background: url("/assets/hero-bg.webp") black no-repeat center center scroll;
-  }
-  #hero-landing video {
-    display: none;
-  }
-}
-
 .truncation {
   overflow: hidden;
   text-overflow: "more...";
@@ -193,7 +184,7 @@
 }
 
 #navbarNav > ul > li > a.nav-link {
-  color: $black;
+  color: white;
 }
 
 #navbarNav > ul > li.nav-item.active > a.nav-link > .nav-circle:before {
