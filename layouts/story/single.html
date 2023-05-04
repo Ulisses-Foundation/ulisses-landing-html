@@ -1,6 +1,6 @@
 {{ define "meta" }}
 {{ $myData := (index $.Site.Data .Lang)}}
-{{ $headerData := $myData.partials.Pages.Main }}
+{{ $headerData := $myData.partials.Pages.Story }}
 <meta name="description" content="{{ $headerData.Description }}">
 <meta name="keywords" content="{{ $headerData.Keywords }}">
 <meta property="og:title" content="{{ .Site.Title }}"/>
@@ -11,11 +11,6 @@
 {{ end }}
 
 {{ define "main" }}
-
 {{ .Content }}
-
-{{ partial "team.html" . }}
-
-{{ partial "ambassador.html" . }}
 
 {{ end }}

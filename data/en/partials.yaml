@@ -1,12 +1,16 @@
 {
   Pages: {
     Main: {
-      Description: "Ulisses is the global identity register - independent from any state or government",
-      Keywords: "Ulisses, Identity, "
+      Description: "ULISSES is the global identity register - independent from any state or government",
+      Keywords: "ULISSES, Identity, "
     },
     Newsletter: {
       Description: "Stay up to date with our global effort",
-      Keywords: "Newsletter, Identity, Ulisses"
+      Keywords: "Newsletter, Identity, ULISSES"
+    },
+    Story: {
+        Description: "The journey of ULISSES started in 2015, during the Voices of Faith Event ”Every Voice Counts” at the World Women’s Day 2015",
+        Keywords: "Journey, Story, ULISSES"
     }
   },
   team: [
@@ -25,13 +29,13 @@
     {
       "NAME": "Thomas Hepp",
       "COMPANY": "OriginStamp",
-      "FUNCTION": "Technology",
+      "FUNCTION": "Technology and Communications",
       "IMAGE": "/assets/ulisses/team/thomas.jpg"
     },
     {
       "NAME": "Dr. Michael Gebert",
       "COMPANY": "European Blockchain Association",
-      "FUNCTION": "Chief Story Teller",
+      "FUNCTION": "Communications",
       "IMAGE": "/assets/ulisses/team/michael.png"
     },
     {
@@ -61,7 +65,7 @@
     {
       "NAME": "Andrei Martchouk",
       "COMPANY": "Q",
-      "FUNCTION": "Development",
+      "FUNCTION": "Technology and Development",
       "IMAGE": "/assets/ulisses/team/andrei.png"
     },
   ],
@@ -79,7 +83,7 @@
       "COMPANY": "Light47, Crypto Country Association"
     },
     {
-      "NAME": "Dr. Agatha Ferreira",
+      "NAME": "Prof. Dr. Agata Ferreira",
       "IMAGE": "/assets/ulisses/ambassadors/AgathaFerreira.png",
       "POSITION": "Professor",
       "COMPANY": "University of Warsaw"
@@ -109,7 +113,7 @@
       "COMPANY": "Tantum Pay"
     },
     {
-      "NAME": "Hartmut Hübner",
+      "NAME": "Dr. Hartmut Hübner",
       "IMAGE": "/assets/ulisses/ambassadors/HartmutHuebner.png",
       "POSITION": "Founder/Owner",
       "COMPANY": "Hübner Communications"
@@ -121,7 +125,7 @@
       "COMPANY": "Nägele Law"
     },
     {
-      "NAME": "Dr. Philipp Sandner",
+      "NAME": "Prof. Dr. Philipp Sandner",
       "IMAGE": "/assets/ulisses/ambassadors/PhilippSandner.png",
       "POSITION": "Professor",
       "COMPANY": "Frankfurt School of Business and Finance"
@@ -145,7 +149,7 @@
       "COMPANY": "Futurity Partners, AMPD"
     },
     {
-      "NAME": "Céline Chi Hae Wong",
+      "NAME": "Dr. Céline Chi Hae Wong",
       "IMAGE": "/assets/ulisses/ambassadors/CelineChiHaeWong.png",
       "POSITION": "Head Digital Assets DLT Business Consulting",
       "COMPANY": "VP Bank"

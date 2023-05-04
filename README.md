@@ -1,4 +1,4 @@
-# Ulisses Foundation Landing
+# ULISSES Foundation Landing
 
 
 ## Prerequisites
