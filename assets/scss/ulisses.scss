@@ -25,7 +25,6 @@
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-
 }
 
 #hero-subtitle {
@@ -111,6 +110,12 @@
 }
 
 #what i {
+  color: $white;
+  font-size: 2.5rem;
+  text-shadow: 3px 3px rgba(255, 165, 0, .75)
+}
+
+#resultsStory i {
   color: $white;
   font-size: 2.5rem;
   text-shadow: 3px 3px rgba(255, 165, 0, .75)
