@@ -1,28 +1,31 @@
 {{ $myData := (index $.Site.Data .Lang)}}
 {{ $headerData := $myData.partials }}
 
-<section id="ambassador" class="mt-5 mb-5">>
-    <div class="container mt-5 mb-5">
-        <div class="mb-5"
-             data-aos="fade-right"
-             data-aos-delay="100">
-            <h3>People making ULISSES happen</h3>
-            <p><span class="h1 headline-font">Ambassadors</span></p>
-        </div>
-        <div class="row">
-            {{ range $headerData.ambassadors }}
-            <div class="col-md-2 text-center p-3"
-                 data-aos="zoom-in">
-                <div class="p-3">
-                    <img class="col-12 rounded-circle shadow"
-                         alt="{{ .NAME }}"
-                         src="{{ .IMAGE }}">
-                </div>
-                <div>
-                    <small>{{ .NAME }}</small>
-                </div>
+<section id="ambassador">>
+    <div class="container pt-5 pb-5">
+        <div class="container mt-5 mb-5">
+            <div class="mb-5"
+                 data-aos="fade-right"
+                 data-aos-delay="100">
+                <h3>{{ $headerData.ambassadors.teaser }}</h3>
+                <p><span class="h1 headline-font">{{ $headerData.ambassadors.title }}</span></p>
             </div>
-            {{ end }}
+            <div class="row">
+                {{ range $headerData.ambassadors.members }}
+                <div class="col-md-2 text-center p-3"
+                     data-aos="zoom-in"
+                     data-aos-delay="100">
+                    <div class="p-2">
+                        <img class="col-12 rounded-circle shadow"
+                             alt="{{ .NAME }}"
+                             src="{{ .IMAGE }}">
+                    </div>
+                    <div>
+                        <small>{{ .NAME }} <a target="_blank" href="{{ .LINKEDIN }}"><i class="bi bi-linkedin text-dark"></i></a></small>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
         </div>
     </div>
 </section>

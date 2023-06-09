@@ -1,27 +1,27 @@
 {{ $myData := (index $.Site.Data .Lang)}}
 {{ $headerData := $myData.partials }}
 
-<section id="team" class="bg-primary text-white">
-    <div class="pt-5 pb-5">
+<section class="bg-primary text-white">
+    <div class="container pt-5 pb-5">
         <div class="container mt-5 mb-5">
             <div class="mb-5"
                  data-aos="fade-right"
                  data-aos-delay="100">
-                <h3>Passionate & competent</h3>
-                <p><span class="h1 headline-font">Team</span></p>
+                <h3>{{ $headerData.team.teaser }}</h3>
+                <p><span class="h1 headline-font">{{ $headerData.team.title }}</span></p>
             </div>
             <div class="row">
-                {{ range $headerData.team }}
+                {{ range $headerData.team.members }}
                 <div class="col-md-2 text-center p-3"
                      data-aos="zoom-in"
                      data-aos-delay="100">
-                    <div class="p-3">
+                    <div class="p-2">
                         <img class="col-12 rounded-circle shadow"
                              alt="{{ .NAME }}"
                              src="{{ .IMAGE }}">
                     </div>
                     <div>
-                        <small>{{ .NAME }}</small>
+                        <small>{{ .NAME }} <a target="_blank" href="{{ .LINKEDIN }}"><i class="bi bi-linkedin text-white"></i></a></small>
                     </div>
                 </div>
                 {{ end }}

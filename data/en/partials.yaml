@@ -9,117 +9,151 @@
       Keywords: "Newsletter, Identity, ULISSES"
     },
     Story: {
-        Description: "The journey of ULISSES started in 2015, during the Voices of Faith Event ”Every Voice Counts” at the World Women’s Day 2015",
-        Keywords: "Journey, Story, ULISSES"
+      Description: "The journey of ULISSES started in 2015, during the Voices of Faith Event ”Every Voice Counts” at the World Women’s Day 2015",
+      Keywords: "Journey, Story, ULISSES"
     }
   },
-  team: [
-    {
-      "NAME": "Martina Dünser-Davis",
-      "IMAGE": "/assets/ulisses/team/martina.png"
-    },
-    {
-      "NAME": "Friedrich Kisters",
-      "IMAGE": "/assets/ulisses/team/friedrich.png"
-    },
-    {
-      "NAME": "Thomas Hepp",
-      "IMAGE": "/assets/ulisses/team/thomas.jpg"
-    },
-    {
-      "NAME": "Dr. Michael Gebert",
-      "IMAGE": "/assets/ulisses/team/michael.png"
-    },
-    {
-      "NAME": "Franz J. Allmayer",
-      "IMAGE": "/assets/ulisses/team/franz.png"
-    },
-    {
-      "NAME": "Lisa Allmayer",
-      "IMAGE": "/assets/ulisses/team/lisa.png"
-    },
-    {
-      "NAME": "Nicolas Biagosch",
-      "IMAGE": "/assets/ulisses/team/nicolas.png"
-    },
-    {
-      "NAME": "Martin Schmidt",
-      "IMAGE": "/assets/ulisses/team/martin.png"
-    },
-    {
-      "NAME": "Andrei Martchouk",
-      "IMAGE": "/assets/ulisses/team/andrei.png"
-    },
-  ],
-  "ambassadors": [
-    {
-      "NAME": "Patrick Bont",
-      "IMAGE": "/assets/ulisses/ambassadors/PatrickBont.png"
-    },
-    {
-      "NAME": "Pablo Coirolo",
-      "IMAGE": "/assets/ulisses/ambassadors/PabloCoirolo.png"
-    },
-    {
-      "NAME": "Prof. Dr. Agata Ferreira",
-      "IMAGE": "/assets/ulisses/ambassadors/AgathaFerreira.png"
-    },
-    {
-      "NAME": "Henry Wulf Concilio",
-      "IMAGE": "/assets/ulisses/ambassadors/HenryWulfConcilio.png"
-    },
-    {
-      "NAME": "Dr. Otto Frommelt",
-      "IMAGE": "/assets/ulisses/ambassadors/OttoFrommelt.png"
-    },
-    {
-      "NAME": "Peter Grosskopf",
-      "IMAGE": "/assets/ulisses/ambassadors/PeterGrosskopf.png"
-    },
-    {
-      "NAME": "Stefan Gstöhl",
-      "IMAGE": "/assets/ulisses/ambassadors/StefanGstoehl.png"
-    },
-    {
-      "NAME": "Dr. Hartmut Hübner",
-      "IMAGE": "/assets/ulisses/ambassadors/HartmutHuebner.png"
-    },
-    {
-      "NAME": "Dr. Thomas Nägele",
-      "IMAGE": "/assets/ulisses/ambassadors/ThomasNaegele.png",
-      "COMPANY": "Nägele Law"
-    },
-    {
-      "NAME": "Prof. Dr. Philipp Sandner",
-      "IMAGE": "/assets/ulisses/ambassadors/PhilippSandner.png"
-    },
-    {
-      "NAME": "Ulrich Spindler",
-      "IMAGE": "/assets/ulisses/ambassadors/UlrichSpindler.png",
-    },
-    {
-      "NAME": "Marion Vogel",
-      "IMAGE": "/assets/ulisses/ambassadors/MarionVogel.png",
-    },
-    {
-      "NAME": "Tanya Woods",
-      "IMAGE": "/assets/ulisses/ambassadors/TanyaWoods.png"
-    },
-    {
-      "NAME": "Dr. Céline Chi Hae Wong",
-      "IMAGE": "/assets/ulisses/ambassadors/CelineChiHaeWong.png"
-    },
-    {
-      "NAME": "Max Zheng",
-      "IMAGE": "/assets/ulisses/ambassadors/MaxZheng.png"
-    },
-    {
-      "NAME": "Simon Tribelhorn",
-      "IMAGE": "/assets/ulisses/ambassadors/SimonTribelhorn.png"
-    },
-    {
-      "NAME": "Dr. Thomas Dünser",
-      "IMAGE": "/assets/ulisses/ambassadors/ThomasDuenser.png"
-    }
-  ]
+  team: {
+    title: "Team",
+    teaser: "Passionate & competent",
+    members: [
+      {
+        "NAME": "Martina Dünser-Davis",
+        "IMAGE": "/assets/ulisses/team/martina.png",
+        LINKEDIN: "https://www.linkedin.com/in/martina-d%C3%BCnser-davis-57885b210/"
+      },
+      {
+        "NAME": "Friedrich Kisters",
+        "IMAGE": "/assets/ulisses/team/friedrich.png",
+        LINKEDIN: "https://www.linkedin.com/in/friedrich-kisters-501132b/"
+      },
+      {
+        "NAME": "Thomas Hepp",
+        "IMAGE": "/assets/ulisses/team/thomas.jpg",
+        LINKEDIN: "https://www.linkedin.com/in/thomashepp/"
+      },
+      {
+        "NAME": "Dr. Michael Gebert",
+        "IMAGE": "/assets/ulisses/team/michael.png",
+        LINKEDIN: "https://www.linkedin.com/in/michaelgebert/"
+      },
+      {
+        "NAME": "Franz J. Allmayer",
+        "IMAGE": "/assets/ulisses/team/franz.png",
+        LINKEDIN: "https://www.linkedin.com/in/franz-josef-allmayer/"
+      },
+      {
+        "NAME": "Lisa Allmayer",
+        "IMAGE": "/assets/ulisses/team/lisa.png",
+        LINKEDIN: "https://www.linkedin.com/in/lisa-allmayer-a8b52278/"
+      },
+      {
+        "NAME": "Nicolas Biagosch",
+        "IMAGE": "/assets/ulisses/team/nicolas.png",
+        LINKEDIN: "https://www.linkedin.com/in/nicolas-biagosch-63215514/"
+      },
+      {
+        "NAME": "Martin Schmidt",
+        "IMAGE": "/assets/ulisses/team/martin.png",
+        LINKEDIN: "https://www.linkedin.com/in/martin-a-schmidt/"
+      },
+      {
+        "NAME": "Andrei Martchouk",
+        "IMAGE": "/assets/ulisses/team/andrei.png",
+        LINKEDIN: "https://www.linkedin.com/in/martchouk/"
+      }
+    ]
+  },
+  ambassadors: {
+    title: "Ambassadors",
+    teaser: "People making ULISSES happen",
+    "members": [
+      {
+        "NAME": "Patrick Bont",
+        "IMAGE": "/assets/ulisses/ambassadors/PatrickBont.png",
+        LINKEDIN: "https://www.linkedin.com/in/pbont/"
+      },
+      {
+        "NAME": "Pablo Coirolo",
+        "IMAGE": "/assets/ulisses/ambassadors/PabloCoirolo.png",
+        LINKEDIN: "https://www.linkedin.com/in/pablo-coirolo-94314a/"
+      },
+      {
+        "NAME": "Prof. Dr. Agata Ferreira",
+        "IMAGE": "/assets/ulisses/ambassadors/AgathaFerreira.png",
+        LINKEDIN: "https://www.linkedin.com/in/agata-ferreira-phd-bb7350134/"
+      },
+      {
+        "NAME": "Henry Wulf Concilio",
+        "IMAGE": "/assets/ulisses/ambassadors/HenryWulfConcilio.png",
+        LINKEDIN: "https://www.linkedin.com/in/henryconcilio/"
+      },
+      {
+        "NAME": "Dr. Otto Frommelt",
+        "IMAGE": "/assets/ulisses/ambassadors/OttoFrommelt.png",
+        LINKEDIN: "https://www.linkedin.com/in/ottocfrommelt/"
+      },
+      {
+        "NAME": "Peter Grosskopf",
+        "IMAGE": "/assets/ulisses/ambassadors/PeterGrosskopf.png",
+        LINKEDIN: "https://www.linkedin.com/in/petergrosskopf/"
+      },
+      {
+        "NAME": "Stephan Gstöhl",
+        "IMAGE": "/assets/ulisses/ambassadors/StephanGstoehl.png",
+        LINKEDIN: "https://www.linkedin.com/in/stephangstoehl/"
+      },
+      {
+        "NAME": "Dr. Hartmut Hübner",
+        "IMAGE": "/assets/ulisses/ambassadors/HartmutHuebner.png",
+        LINKEDIN: "https://www.linkedin.com/in/hartmuthuebner/"
+      },
+      {
+        "NAME": "Dr. Thomas Nägele",
+        "IMAGE": "/assets/ulisses/ambassadors/ThomasNaegele.png",
+        "COMPANY": "Nägele Law",
+        LINKEDIN: "https://www.linkedin.com/in/thomasnaegele/"
+      },
+      {
+        "NAME": "Prof. Dr. Philipp Sandner",
+        "IMAGE": "/assets/ulisses/ambassadors/PhilippSandner.png",
+        LINKEDIN: "https://www.linkedin.com/in/philippsandner/"
+      },
+      {
+        "NAME": "Ulrich Spindler",
+        "IMAGE": "/assets/ulisses/ambassadors/UlrichSpindler.png",
+        LINKEDIN: "https://www.linkedin.com/in/ulrich-spindler/"
+      },
+      {
+        "NAME": "Marion Vogel",
+        "IMAGE": "/assets/ulisses/ambassadors/MarionVogel.png",
+        LINKEDIN: "https://www.linkedin.com/in/marionvogel/"
+      },
+      {
+        "NAME": "Tanya Woods",
+        "IMAGE": "/assets/ulisses/ambassadors/TanyaWoods.png",
+        LINKEDIN: "https://www.linkedin.com/in/tanya-woods-icd-d-09aa584a/"
+      },
+      {
+        "NAME": "Dr. Céline Chi Hae Wong",
+        "IMAGE": "/assets/ulisses/ambassadors/CelineChiHaeWong.png",
+        LINKEDIN: "https://www.linkedin.com/in/celinechihaewong/"
+      },
+      {
+        "NAME": "Max Zheng",
+        "IMAGE": "/assets/ulisses/ambassadors/MaxZheng.png",
+        LINKEDIN: "https://www.linkedin.com/in/max-zheng/"
+      },
+      {
+        "NAME": "Simon Tribelhorn",
+        "IMAGE": "/assets/ulisses/ambassadors/SimonTribelhorn.png",
+        LINKEDIN: "https://www.linkedin.com/in/simon-tribelhorn-26ab0727/"
+      },
+      {
+        "NAME": "Dr. Thomas Dünser",
+        "IMAGE": "/assets/ulisses/ambassadors/ThomasDuenser.png",
+        LINKEDIN: "https://www.linkedin.com/in/dr-thomas-d%C3%BCnser-192ab7198/"
+      }
+    ]
+  }
 }
